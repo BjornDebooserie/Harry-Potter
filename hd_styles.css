@@ -1,0 +1,412 @@
+/*
+	Author: Bjorn, Logan, Justin & Mitch
+*/
+
+/* BEGIN WOWslider styles */
+iframe {
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+/* END WOWslider styles */
+
+	
+	
+/* BEGIN General Menu styles */
+#menu, #menu ul{
+	list-style:none;  /*--- Makes the bullets go away ---*/
+	margin:0;  /*--- Take out any default margin on the UL tag ---*/
+	padding:0;  /*--- Take out any default padding on the UL tag ---*/
+}
+
+#menu li{
+	float:left;  /*--- Make the list go horizontal ---*/
+}
+
+#menu a{
+	display:block;  /*--- Make the entire button are clickable rather than the text alone ---*/
+	}
+
+#menu li ul {
+	position: absolute;
+	left: -999em;
+	}
+
+#menu li:hover ul{ /* lists nested under hovered list items */
+	left: auto;
+	} 
+
+#menu li li {
+	float: none;
+	}
+/* END General Menu styles */	
+	
+	
+	
+/* BEGIN Menu Styles: Images */
+#menu li#index a{
+	background: url(images/menu/menu0.png) no-repeat;
+	width: 210px;
+	height: 90px;
+}
+
+#menu li#home a{
+	background: url(images/menu/menu1.png) no-repeat;
+	width: 98px;
+	height: 90px;	
+}
+
+#menu li#shop a{
+	background: url(images/menu/menu2.png) no-repeat;
+	width: 87px;
+	height: 90px;	
+}
+
+#menu li#product1 a{
+	background: url(images/menu/menu21.png) no-repeat;
+	width: 200px;
+	height: 35px;	
+}
+
+#menu li#product2 a{
+	background: url(images/menu/menu22.png) no-repeat;
+	width: 200px;
+	height: 35px;	
+}
+
+#menu li#product3 a{
+	background: url(images/menu/menu23.png) no-repeat;
+	width: 200px;
+	height: 35px;	
+}
+
+#menu li#product4 a{
+	background: url(images/menu/menu24.png) no-repeat;
+	width: 200px;
+	height: 35px;	
+}
+
+#menu li#product5 a{
+	background: url(images/menu/menu25.png) no-repeat;
+	width: 200px;
+	height: 35px;	
+}
+
+#menu li#location a{
+	background: url(images/menu/menu3.png) no-repeat;
+	width: 151px;
+	height: 90px;	
+}
+
+#menu li#about a{
+	background: url(images/menu/menu4.png) no-repeat;
+	width: 148px;
+	height: 90px;	
+}
+
+#menu li#contact a{
+	background: url(images/menu/menu5.png) no-repeat;
+	width: 184px;
+	height: 90px;	
+}
+
+#menu li#extra a{
+	background: url(images/menu/menu6.png) no-repeat;
+	width: 122px;
+	height: 90px;	
+}
+
+#menu li#charity a{
+	background: url(images/menu/menu61.png) no-repeat;
+	width: 115px;
+	height: 35px;	
+}
+
+#menu li#faq a{
+	background: url(images/menu/menu62.png) no-repeat;
+	width: 115px;
+	height: 35px;	
+}
+
+#menu li#links a{
+	background: url(images/menu/menu63.png) no-repeat;
+	width: 115px;
+	height: 35px;	
+}
+/* END Menu Styles: Images */
+
+
+
+/* BEGIN Menu Styles: Hover Images */
+#menu li#home a:hover{
+	background: url(images/menu/menu1_.png) no-repeat;	
+	width: 98px;
+	height: 90px;
+}
+
+#menu li#shop a:hover{
+	background: url(images/menu/menu2_.png) no-repeat;
+	width: 87px;
+	height: 90px;	
+}
+
+#menu li#product1 a:hover{
+	background: url(images/menu/menu21_.png) no-repeat;
+	width: 200px;
+	height: 35px;		
+}
+
+#menu li#product2 a:hover{
+	background: url(images/menu/menu22_.png) no-repeat;
+	width: 200px;
+	height: 35px;		
+}
+
+#menu li#product3 a:hover{
+	background: url(images/menu/menu23_.png) no-repeat;
+	width: 200px;
+	height: 35px;		
+}
+
+#menu li#product4 a:hover{
+	background: url(images/menu/menu24_.png) no-repeat;
+	width: 200px;
+	height: 35px;		
+}
+
+#menu li#product5 a:hover{
+	background: url(images/menu/menu25_.png) no-repeat;
+	width: 200px;
+	height: 35px;		
+}
+
+#menu li#location a:hover{
+	background: url(images/menu/menu3_.png) no-repeat;
+	width: 151px;
+	height: 90px;	
+}
+
+#menu li#about a:hover{
+	background: url(images/menu/menu4_.png) no-repeat;
+	width: 148px;
+	height: 90px;	
+}
+
+#menu li#contact a:hover{
+	background: url(images/menu/menu5_.png) no-repeat;
+	width: 184px;
+	height: 90px;	
+}
+
+#menu li#extra a:hover{
+	background: url(images/menu/menu6_.png) no-repeat;
+	width: 122px;
+	height: 90px;	
+}
+
+#menu li#charity a:hover{
+	background: url(images/menu/menu61_.png) no-repeat;
+	width: 115px;
+	height: 35px;	
+}
+
+#menu li#faq a:hover{
+	background: url(images/menu/menu62_.png) no-repeat;
+	width: 115px;
+	height: 35px;	
+}
+
+#menu li#links a:hover{
+	background: url(images/menu/menu63_.png) no-repeat;
+	width: 115px;
+	height: 35px;	
+}
+/* END Menu Styles: Hover Images */
+
+
+
+
+/* Clear Menu styles */
+.clear{
+	clear:both;  /*--- Clears the float of the list items to restore normal document flow ---*/
+}
+
+
+/* Body Styles */	
+body {
+	background-image: url('images/backgroundpattern.png');
+	background-color: white;
+	color: black;
+	width: 1000px;
+	margin: auto;
+	font-family: 'Gabriela', serif;
+	font-size: 12pt; 
+	}
+	
+p {
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	margin: 0px;
+	}
+	
+#question {
+	color:red;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px white;
+	}
+	
+#answer{
+	color:green;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px white;
+	}
+	
+a:link {
+	color: darkgreen;
+	text-decoration:none;
+	}
+	
+a:visited {
+	color: darkgreen;
+	text-decoration:none;
+	}
+	
+a:hover {
+	color: green;
+	text-decoration:none;
+	}
+	
+a:active {
+	color: darkgreen;
+	text-decoration:none;
+	}
+
+/* h styles */	
+h1 {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0px;	
+	font-size: 18pt;
+	text-shadow: 0px 0px 10px white;
+	font-variant:small-caps;
+	}
+
+h2 {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0px;	
+	font-size: 14pt;
+	text-shadow: 0px 0px 15px white;
+	}
+	
+/* div styles */	
+div {
+	background-image: url('images/wood.jpg');
+	
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	border: 1px solid black;
+	}
+	
+/* ORDER NOW styles */
+button {
+	font-family: 'Merienda One', cursive;
+	font-weight: bold;
+	}
+	
+/* Image styles */
+#left {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0x;
+	border: solid 1px black;
+	float: left;
+	
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.50);
+	}		
+
+#right {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0x;
+	border: solid 1px black;
+	float: right;
+	
+	box-shadow: 5px 5px 3px rgba(0,0,0,0.50);
+	}
+
+/* Video styles */
+#videotext {
+	text-align: center
+	}
+	
+#movie {
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	border: solid 1px black;
+	
+	box-shadow: 0px 5px 3px rgba(0,0,0,0.50);
+}
+	
+/* Footer styles */	
+footer {
+	width: 1000px;
+	clear: both;	
+	font-size: 11pt;
+	text-align: center;
+	color: darkgreen;
+	}
+	
+footer div {
+	background-image: url('images/wood.jpg');
+	
+	margin-bottom: 5px;
+	
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	border: 1px solid black;
+	clear: both;
+	}
+	
+#logo{
+	margin: 35px auto 30px auto;
+	}
+	
+footer table {
+	padding: 15px;
+	margin: auto;
+	width: 700px;
+	border: none;
+	float: right;
+	}
+
+footer tr {
+	padding: 0px;
+	text-align: left;
+	}
+	
+footer td {
+	padding: 0px;
+	width: 175px;
+	text-align: left;
+	}	
+

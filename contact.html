@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!--
+			Author: Bjorn, Logan, Justin & Mitch
+			File: Contact Us 
+		-->
+		<meta charset="UTF-8" />
+		<meta name="author" content="Bjorn, Logan, & Justin" />
+		<meta name="description" content="Honey Dukes" />
+		<meta name="keywords" content="Honey Dukes, Harry Potter, HP, Wizard, Magic, Candy, shop" />
+      
+		<title>Honey Dukes - Contact Us</title>
+     
+		<script src="modernizr-1.5.js"></script>
+		<script src="formsubmit.js"></script>
+		
+		<link href="hd_styles.css" rel="stylesheet" type="text/css" />
+		<link href="hd_styles_without_menu.css" rel="stylesheet" type="text/css" />
+		<link href="hd_styles_forms.css" rel="stylesheet" type="text/css" />
+   
+		<!-- Start WOWSlider.com HEAD section -->
+		<link href="engine1/style.css" rel="stylesheet" type="text/css" />
+		<script src="engine1/jquery.js" type="text/javascript"></script>
+		<!-- End WOWSlider.com HEAD section -->
+
+		<!-- Start Preload Images -->
+		<script type="text/javascript">
+			function MM_preloadImages() { //v3.0
+			var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+			var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+			if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+			}
+		</script>
+		<!-- End Preload Images -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body onload="MM_preloadImages('images/menu/menu1_.png', 'images/menu/menu2_.png', 'images/menu/menu21_.png', 'images/menu/menu22_.png', 'images/menu/menu23_.png', 'images/menu/menu24_.png', 'images/menu/menu25_.png', 'images/menu/menu3_.png', 'images/menu/menu4_.png', 'images/menu/menu5_.png', 'images/menu/menu6_.png', 'images/menu/menu61_.png', 'images/menu/menu62_.png', 'images/menu/menu63_.png')">
+	
+	<header>	
+		<ul id="menu">
+			<li id="index"><a href="index.html" alt="HoneyDukes" title="HoneyDukes">&nbsp;</a></li>
+			<li id="home"><a href="index.html">&nbsp;</a></li>
+			<li id="shop"><a href="#">&nbsp;</a>	<!-- Empty link, so rollover would work without special coding -->
+				<ul>
+					<li id="product1" STYLE="margin-top:-22px"><a href="product1.html">&nbsp;</a></li>
+					<li id="product2"><a href="product2.html">&nbsp;</a></li>
+					<li id="product3"><a href="product3.html">&nbsp;</a></li>
+					<li id="product4"><a href="product4.html">&nbsp;</a></li>
+					<li id="product5"><a href="product5.html">&nbsp;</a></li>
+				</ul>
+			</li>
+			<li id="location"><a href="location.html">&nbsp;</a></li>
+			<li id="about"><a href="about.html">&nbsp;</a></li>
+			<li id="contact"><a href="contact.html">&nbsp;</a></li>
+			<li id="extra"><a href="#">&nbsp;</a>	<!-- Empty link, so rollover would work without special coding -->
+				<ul>
+					<li id="charity" STYLE="margin-top:-22px"><a href="charity.html">&nbsp;</a></li>
+					<li id="faq"><a href="faq.html">&nbsp;</a></li>
+					<li id="links"><a href="links.html">&nbsp;</a></li>
+				</ul>
+			</li>
+        <br class="clear">
+		</ul> 
+
+		<!-- Start WOWSlider.com -->
+		<iframe src="wowslider/wowslider.html" style="width:1000px;height:200px;max-width:100%;overflow:hidden;border:solid 1px;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+		<!-- End WOWSlider.com -->
+	</header>
+
+		<section>
+			
+			<div>
+				<h1>Contact Us</h1>
+				
+				<p align="center">Fields marked with * are mandatory.</p>
+				
+				<form id="contact_us" name="contact_us" action="mailto:sbartczak@uca.edu " method="post" enctype="text/plain">
+					
+					<fieldset id="contactInfo">
+						<legend>Contact Information</legend>
+						
+						<label for="firstname">First Name *</label>
+						<input name="firstname" id="firstname" placeholder="First Name" required="required" />
+						
+						<label for="lastname">Last Name *</label>
+						<input name="lastname" id="lastname" placeholder="Last Name" required="required" />
+						
+						<label for="phone">Phone Number</label>
+						<input name="phone" id="phone" placeholder="(nnn) nnn-nnnn" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}4"/>
+						
+						<label for="email">E-mail *</label>
+						<input name="email" id="email" type="email" required="required" />	
+					</fieldset>
+					
+					<fieldset id="contactMsg">
+						<legend>Message</legend>
+						
+						<label for="msgtype">Category</label>
+						<select name="msgtype" id="msgtype">
+							<option value="sales">Sales</option>
+							<option value="questions">Questions</option>
+							<option value="other">Other</option>
+						</select>
+						
+						<label for="message">Your Message *</label>
+						<textarea name="message" id="message" required></textarea>
+						
+					</fieldset>
+						
+						<label id="copy">
+							<input type="checkbox" name="copy">
+							E-mail a copy to my e-mail
+						</label>
+						
+						<p>
+							<input type="submit" value="Submit" />
+							<input type="reset" value="Cancel" />
+						</p>
+					
+				</form>
+			</div>
+		
+		</section>
+
+		<footer>
+			<div>	
+				<img id="logo" src="images/footer/logo.png" alt="HoneyDukes" title="HoneyDukes" />
+				<table>
+					<tr>
+						<td><b>Connect With Us</b></td>
+						<td><b>Honey Dukes</b></td>
+						<td><b>Shop</b></td>
+						<td><b><a href="extra.html">Extra</a></b></td>
+					</tr>
+					<tr>
+						<td rowspan="2"><a href="http://www.facebook.com" target="_blank"><img src="images/footer/facebook.png" alt="Facebook Page" title="Facebook Page" /></a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="product1.html">Butter Beer</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="charity.html">Charity</a></td>
+					  </tr>
+					  <tr>
+						<td>&nbsp;&nbsp;&nbsp;<a href="location.html">Location</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="product2.html">Chocolate Frogs</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="faq.html">FAQ</a></td>
+					  </tr>
+					  <tr>
+						<td rowspan="2"><a href="http://www.twitter.com" target="_blank"><img src="images/footer/twitter.png" alt="Twitter Page" title="Twitter Page" /></a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="about.html">About Us</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="product3.html">Candy Wands</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="links.html">Links</a></td>
+					  </tr>
+					  <tr>
+						<td>&nbsp;&nbsp;&nbsp;<a href="contact.html">Contact Us</a></td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="product4.html">Pumpkin Juice</a></td>
+						<td>&nbsp;</td>
+					  </tr>
+					  <tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;&nbsp;&nbsp;<a href="product5.html">Candy Floss</a></td>
+						<td>&nbsp;</td>
+					  </tr>
+				</table>
+				<p>Copyright © 2013 Honey Dukes. All Rights Reserved.</p>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
